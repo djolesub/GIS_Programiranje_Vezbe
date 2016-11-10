@@ -11,5 +11,3 @@ def zad14():
             else:
                 sumNeparni+=int(num[i])
         print "Apsolutna vrednost ralizke parnih i neparnih elemenata je %d "%(abs(sumParni - sumNeparni)  )
-
-zad14()

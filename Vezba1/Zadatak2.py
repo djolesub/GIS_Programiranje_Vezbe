@@ -21,4 +21,3 @@ def zad2():
         print "Ostatak:%d"%(ostatak)
 
 
-zad2()

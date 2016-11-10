@@ -31,4 +31,3 @@ def zad7():
         if i >0:
             sum+=i
     print "Suma pozitivnih vredosti je: %d"%(sum)
-zad7()

@@ -10,4 +10,3 @@ def zad10():
                 num+=1
         print "U unesenom nizu ima %d cifara"%(num)
 
-zad10()

@@ -11,4 +11,3 @@ def zad11():
     xt,yt = A.split(",")
 
 
-zad11()

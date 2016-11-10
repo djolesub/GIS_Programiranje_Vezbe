@@ -6,4 +6,3 @@ def zad5():
     numMed = abs(num1+num2+num3)/3
     print "Apsolutna vrednost aritmeticke sredine je: %.3f"%(numMed)
 
-zad5()
