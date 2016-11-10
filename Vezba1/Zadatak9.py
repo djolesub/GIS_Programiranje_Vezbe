@@ -17,3 +17,6 @@ def zad9():
                 print "Veliko slovo: %s,ASCII: %d "%(caracter.upper(),ord(caracter.upper()))
         else:
             print "Uneseni karakter: %s,ASCII: %d"%(caracter,carASC)
+
+if __name__ == "__main__":
+    zad9()

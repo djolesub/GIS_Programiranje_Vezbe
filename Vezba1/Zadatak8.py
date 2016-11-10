@@ -14,3 +14,6 @@ def zad8():
         if str(num)[i] > max:
             max=int(str(num)[i])
     print "Najveca cifra u unesenom broju je: %d"%(max)
+
+if __name__ == "__main__":
+    zad8()

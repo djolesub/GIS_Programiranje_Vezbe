@@ -19,5 +19,5 @@ def zad2():
         print "Proizvod:%d"%(proizvod)
         print "Ceo:%d"%(ceo)
         print "Ostatak:%d"%(ostatak)
-
-
+if __name__ == "__main__":
+    zad2()

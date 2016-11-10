@@ -17,4 +17,5 @@ def zad13():
         m = (int(n)/int(k))
         print "Broj %d se sadrzi u broju %d %d puta"%(k,n,abs(m))
 
-
+if __name__ == "__main__":
+    zad13()

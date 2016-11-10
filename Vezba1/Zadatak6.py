@@ -8,3 +8,5 @@ def zad6():
             print "Minumun je %d a maksimum %d"%(num1,num2)
         else:
             print "Minumun je %d a maksimum %d"%(num2,num1)
+if __name__ == "__main__":
+    zad6()

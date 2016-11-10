@@ -11,6 +11,7 @@ def zad3():
     ugaoRad = ugao * pi/180
     print "Razlika dva pravca daje ugao vrednosti %.4f stepeni"%(degrees(ugaoRad))
 
-
+if __name__ == "__main__":
+    zad3()
 
 

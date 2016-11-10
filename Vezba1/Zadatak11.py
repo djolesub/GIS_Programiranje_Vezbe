@@ -21,7 +21,7 @@ def zad11():
      print('Tacka M ' , M , " pripada trouglu")
     else:
         print('Tacka M', M, " ne pripada trouglu")
-
-zad11()
+if __name__ == "__main__":
+    zad11()
 
 

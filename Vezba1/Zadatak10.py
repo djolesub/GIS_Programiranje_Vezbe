@@ -9,3 +9,6 @@ def zad10():
             if i.isdigit():
                 num+=1
         print "U unesenom nizu ima %d cifara"%(num)
+
+if __name__ == "__main__":
+    zad10()

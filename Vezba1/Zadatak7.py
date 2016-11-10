@@ -31,3 +31,6 @@ def zad7():
         if i >0:
             sum+=i
     print "Suma pozitivnih vredosti je: %d"%(sum)
+
+if __name__ == "__main__":
+    zad7()

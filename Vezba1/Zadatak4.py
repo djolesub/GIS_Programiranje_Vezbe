@@ -25,3 +25,5 @@ def zad4():
     else:
         print "Za svaki broj morate uneti po cetiri cifre. Samo vrednosti od 0-9 su dozvoljene"
 
+if __name__ == "__main__":
+    zad4()
