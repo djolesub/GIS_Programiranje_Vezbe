@@ -1,13 +1,27 @@
 import sys
 def zad11():
-    print "Unesite vrednosti koordinata za temena trougla"
-    A = raw_input("Unesite x i y koordinatu prve tacke trougla,razdvojene zarezom 'x,y':\t")
-    x1,y1 = A.split(",")
-    B = raw_input("Unesite x i y koordinatu druge tacke trougla,razdvojene zarezom 'x,y':\t")
-    x2,y2 = A.split(",")
-    C = raw_input("Unesite x i y koordinatu trece tacke trougla,razdvojene zarezom 'x,y':\t")
-    x3,y3 = A.split(",")
-    D = raw_input("Unesite x i y koordinatu trazene tacke 'x,y':\t")
-    xt,yt = A.split(",")
+    A = [10,15]
+    B = [1,20]
+    C = [4,17]
+    print "Trougao je zadata sledecim tackama:"
+    print "Tacka A ",A
+    print "Tacka B ",B
+    print "Tacka C ",C
+    point = raw_input("Unesite vrednost tacke u formatu (x,y)za koju zelite da proverite da li je u poligonu:\t")
+    p = point.split(",")
+    M = [float(p[0]),float(p[1])]
+
+    P = abs(A[0]*(B[1]-C[1]) + B[0]*(C[1]-A[1]) + C[0]*(A[0]-B[0]))/2
+
+    P1 = abs(A[0] * (B[1] - M[1]) + B[0] * (M[1] - A[1]) + M[0] * (A[0] - B[0])) / 2
+    P2 = abs(M[0] * (B[1] - C[1]) + B[0] * (C[1] - M[1]) + C[0] * (M[0] - B[0])) / 2
+    P3 = abs(A[0] * (M[1] - C[1]) + M[0] * (C[1] - A[1]) + C[0] * (A[0] - M[0])) / 2
+
+    if P == (P1 + P2 + P3):
+     print('Tacka M ' , M , " pripada trouglu")
+    else:
+        print('Tacka M', M, " ne pripada trouglu")
+
+zad11()
 
 
